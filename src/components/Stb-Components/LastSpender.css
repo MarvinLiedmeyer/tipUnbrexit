@@ -1,0 +1,6 @@
+.cc__list .list-item__header {
+    height: auto !important;
+}
+.cc__list .list-item{
+    border-bottom:  0 !important;
+}
