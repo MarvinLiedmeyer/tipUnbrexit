@@ -14,7 +14,7 @@ const rootEl = document.getElementById('app');
 // Render given component into root element
 const render = (Component) => {
     ReactDOM.render(
-        <Component/>,
+        <Component />,
         rootEl
     );
 };
@@ -27,11 +27,16 @@ async function init() {
     try {
         // Wait until chayns® is ready
         await chayns.ready;
+        const isLitfassDevice = chayns.env && chayns.env.isAndroid && chayns.env.isApp && chayns.env.isDesktop && chayns.env.isTablet;
 
-        
+        if (isLitfassDevice) {
+            render(Stb)
+        } else {
+            // Render App
+            render(App);
+        }
 
-        // Render App
-        render(App);
+
     } catch (err) {
         console.warn('no chayns environment found', err);
     }

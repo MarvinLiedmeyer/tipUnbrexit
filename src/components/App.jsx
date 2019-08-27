@@ -10,7 +10,7 @@ class App extends PureComponent {
     render() {
         return (
             <div className="tapp">
-                <Headline headline="chayns® React Todo Example"/>
+                <Headline headline="Mobile Ansicht"/>
                 <Intro intro="This is a very simple and basic example of how u can use chayns® and React together."/>
                 
             </div>
