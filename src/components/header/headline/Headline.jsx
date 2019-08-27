@@ -5,14 +5,20 @@ import PropTypes from 'prop-types';
 // If u want to define ur own shouldComponentUpdate logic use Component instead of PureComponent.
 class Headline extends PureComponent {
     render() {
-        const { headline } = this.props;
+        const { headline, subline } = this.props;
 
-        return <h1>{headline}</h1>;
+
+        return (
+        <div>
+            <h1>{headline}</h1>
+            <h2>{subline}</h2>
+        </div>
+);
+        }
     }
-}
 
 Headline.propTypes = {
-    headline: PropTypes.string.isRequired,
-};
-
-export default Headline;
+            headline: PropTypes.string.isRequired,
+            subline: PropTypes.string.isRequired
+        };
+        export default Headline;

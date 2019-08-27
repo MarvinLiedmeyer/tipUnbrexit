@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
@@ -5,11 +6,17 @@ import PropTypes from 'prop-types';
 // If u want to define ur own shouldComponentUpdate logic use Component instead of PureComponent.
 class Intro extends PureComponent {
     render() {
-        const { intro } = this.props;
+        const { intro, website } = this.props;
 
         return (
             <div className="tapp__intro">
                 {intro}
+                <p>
+                <br/>
+                    <a href={website}>mehr </a>
+
+                     über die Band erfahren...
+                </p>
             </div>
         );
     }
@@ -17,6 +24,7 @@ class Intro extends PureComponent {
 
 Intro.propTypes = {
     intro: PropTypes.string.isRequired,
+    website: PropTypes.string.isRequired
 };
 
 export default Intro;

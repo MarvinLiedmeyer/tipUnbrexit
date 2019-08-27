@@ -1,0 +1,11 @@
+.cc__list .list-item__header {
+    height: auto !important;
+    padding: 1% !important;
+}
+.cc__list .list-item{
+    border-bottom:  0 !important;
+}
+
+.list {
+    flex: 1;
+}

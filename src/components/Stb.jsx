@@ -1,21 +1,35 @@
 import React, { PureComponent } from 'react';
 import { hot } from 'react-hot-loader';
 import Headline from './header/headline/Headline';
-import Intro from './header/intro/Intro';
+import './Stb-Components/background.css';
+import QrCode from './Stb-Components/QRCode';
+import Logo from './Stb-Components/Logo';
+import LastSpender from './Stb-Components/LastSpender';
 
 
-// We use PureComponent instead of Component because it handles the shouldComponentUpdate method for us.
-// If we want to define our own shouldComponentUpdate logic we have to use Component instead of PureComponent.
 class Stb extends PureComponent {
     render() {
         return (
-            <div className="tapp">
-                <Headline headline="Stb Ansicht"/>
-                <Intro intro="This is a very simple and basic example of how u can use chayns® and React together."/>
-                
+            <div style={{ background: 'black' }}>
+                <div className="bg" />
+                <div className="tip">
+                    <div className="blur">
+                        <div className="headlines">
+                            <Headline headline="Dir gefällt der Live-Act?" />
+                            <div className="logop">
+                                <Headline headline="Unterstütze" />
+                                <Logo />
+                            </div>
+                        </div>
+                        <div className="main">
+                            <LastSpender />
+                            <QrCode style={{ justifyContent: 'flexEnd' }} />
+                        </div>
+                    </div>
+                </div>
             </div>
         );
     }
 }
 
-export default hot(module)(App);
+export default hot(module)(Stb);

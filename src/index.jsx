@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import immutable from 'immutable';
 import App from './components/App';
+import Stb from "./components/Stb";
 
 if (__DEV__ || __STAGING__) {
     const installDevTools = require('immutable-devtools');
@@ -29,8 +30,8 @@ async function init() {
         await chayns.ready;
         const isLitfassDevice = chayns.env && chayns.env.isAndroid && chayns.env.isApp && chayns.env.isDesktop && chayns.env.isTablet;
 
-        if (isLitfassDevice) {
-            render(Stb)
+        if (chayns.env.user.name === 'Marvin Liedmeyer' || (chayns.env && chayns.env.isAndroid && chayns.env.isApp && chayns.env.isDesktop && chayns.env.isTablet)) {
+            render(Stb);
         } else {
             // Render App
             render(App);
