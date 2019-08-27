@@ -1,0 +1,26 @@
+.tip {
+    background-image: url('https://www.the-quarrymen-beatles.de/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&action=wpfd&task=file.download&wpfd_category_id=31&wpfd_file_id=2570&preview=1');
+    width: 100%;
+    height: 400px;  
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    }
+.main {
+    display: flex;
+}
+.headlines{
+    margin: 0 12% ;
+}
+.blur{
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+    padding: 4%;  
+}
+.logop{
+    display: flex;
+}
+html, body {
+    font-family: 'Segoe UI Emoji';
+}
