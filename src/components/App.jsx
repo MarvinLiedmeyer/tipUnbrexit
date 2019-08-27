@@ -12,7 +12,7 @@ class App extends PureComponent {
             <div className="tapp">
                 <Headline headline="chayns® React Todo Example"/>
                 <Intro intro="This is a very simple and basic example of how u can use chayns® and React together."/>
-                <Todos/>
+                
             </div>
         );
     }

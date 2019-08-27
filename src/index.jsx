@@ -28,6 +28,8 @@ async function init() {
         // Wait until chayns® is ready
         await chayns.ready;
 
+        
+
         // Render App
         render(App);
     } catch (err) {
