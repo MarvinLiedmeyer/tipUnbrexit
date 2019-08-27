@@ -1,7 +1,7 @@
-.qrCode {
-    width: 180px;
-    height: 180px;
-    justify-content: flex-end;
+.qrcode {
+    width: 25%;
+    height: 25%;
+    justify-self: flex-end;
     margin-right: 0%;
 }
 
