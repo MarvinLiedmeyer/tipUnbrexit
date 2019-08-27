@@ -26,7 +26,6 @@ export default (dev = false) => {
                         loader: 'babel-loader'
                     }],
                     exclude: /node_modules/
-
                 },
                 {
                     test: /\.(css|scss)$/,

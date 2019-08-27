@@ -1,0 +1,74 @@
+.messageInput {
+    width: 90%;
+    margin: 0 5% 0 5%
+}
+
+.donateBtn {
+    margin: 15px 35%;
+    width: 30%;
+}
+
+.checkAnonym {}
+
+.addNewBtn {
+    margin: 10px 35%;
+    width: 30%;
+}
+
+.h2 {
+    padding: 0 5%;
+}
+
+.checkBoxHolder {
+    padding: 0 5%;
+}
+
+.btnHolder {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.inputDonation {
+    width: 20%;
+}
+
+.amount--range {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin: 30px 5%;
+}
+
+.amount--range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    border-radius: 50%;
+    /* Slider handle height */
+    background: #8288C8;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.amount--range::-moz-range-thumb {
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    border-radius: 50%;
+    /* Slider handle height */
+    background: #8288C8;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+}
