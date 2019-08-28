@@ -15,8 +15,10 @@
     display: flex;
 }
 .headlines{
-    text-align: center;
-    margin: 0 12% ;
+    margin: 1em auto ;
+    display: table-cell;
+	vertical-align: middle;
+	text-align:center;
 }
 .blur{
     backdrop-filter: blur(5px);
@@ -26,9 +28,13 @@
 }
 .logop{
     display: flex;
+	text-align:center;
 }
 html, body {
     font-family: 'Segoe UI Emoji';
+}
+p{
+    color: white;
 }
 .bg {
     background-image: url('https://www.the-quarrymen-beatles.de/wp-admin/admin-ajax.php?juwpfisadmin=false&action=wpfd&action=wpfd&task=file.download&wpfd_category_id=31&wpfd_file_id=2570&preview=1');

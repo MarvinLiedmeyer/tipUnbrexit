@@ -10,7 +10,8 @@ class LastSpender extends PureComponent {
             <div className="list">
                 <List>
                     <ListItem
-                        title={(<h2>Leonhard Driesch</h2>)}
+                        style={{ display: 'flex' }}
+                        title={(<p>Leonhard Driesch</p>)}
                         image="http://placekitten.com/200/300"
                         overflow="hidden"
                         right={(
@@ -26,7 +27,8 @@ class LastSpender extends PureComponent {
                         )}
                     />
                     <ListItem
-                        title={(<h2>Leonhard Driesch</h2>)}
+                        style={{ display: 'flex' }}
+                        title={(<p>Leonhard Driesch</p>)}
                         image="http://placekitten.com/200/300"
                         overflow="hidden"
                         right={(
@@ -37,12 +39,13 @@ class LastSpender extends PureComponent {
                                     backgroundColor: 'white'
                                 }}
                             >
-                                <h1> 10£ </h1>
+                                <h1> 2£ </h1>
                             </div>
                         )}
                     />
                     <ListItem
-                        title={(<h2>Leonhard Driesch</h2>)}
+                        style={{ display: 'flex' }}
+                        title={(<p>Leonhard Driesch</p>)}
                         image="http://placekitten.com/200/300"
                         overflow="hidden"
                         right={(
