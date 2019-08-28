@@ -8,6 +8,9 @@
 
 .list {
     flex: 1;
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
     margin-bottom: 0 !important;
     padding-left: 0 !important;
 }
@@ -20,6 +23,24 @@
     outline: 0 !important;
 }
 
-.cc__list .list-item__spacer{
-    flex-grow: 0;
+.speech-bubble {
+    flex: 2;
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 1.531em solid transparent;
+	border-right-color: #00aabb;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -0.766em;
+	margin-left: -1.531em;
 }
