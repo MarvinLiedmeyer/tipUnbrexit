@@ -1,6 +1,6 @@
 .cc__list .list-item__header {
     height: auto !important;
-    padding: 1% !important;
+    padding: 0 !important;
 }
 .cc__list .list-item{
     border-bottom:  0 !important;
@@ -8,4 +8,18 @@
 
 .list {
     flex: 1;
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+.speechbubble{
+    display: flex;
+}
+
+.list-item__image {
+    border-radius: 40px !important;
+    outline: 0 !important;
+}
+
+.cc__list .list-item__spacer{
+    flex-grow: 0;
 }

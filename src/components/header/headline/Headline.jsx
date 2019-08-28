@@ -9,16 +9,16 @@ class Headline extends PureComponent {
 
 
         return (
-        <div>
-            <h1>{headline}</h1>
-            <h2>{subline}</h2>
-        </div>
-);
-        }
+            <div>
+                <h1 style={{ color: 'white', fontSize: '220%' }}>{headline}</h1>
+                <h2>{subline}</h2>
+            </div>
+        );
     }
+}
 
 Headline.propTypes = {
-            headline: PropTypes.string.isRequired,
-            subline: PropTypes.string.isRequired
-        };
-        export default Headline;
+    headline: PropTypes.string.isRequired,
+    subline: PropTypes.string.isRequired
+};
+export default Headline;

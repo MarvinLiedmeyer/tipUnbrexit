@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { hot } from 'react-hot-loader';
 import Headline from './header/headline/Headline';
-import './Stb-Components/background.css';
+import './Stb-Components/main.css';
 import QrCode from './Stb-Components/QRCode';
 import Logo from './Stb-Components/Logo';
 import LastSpender from './Stb-Components/LastSpender';
@@ -23,7 +23,8 @@ class Stb extends PureComponent {
                         </div>
                         <div className="main">
                             <LastSpender />
-                            <QrCode style={{ justifyContent: 'flexEnd' }} />
+                            <div className="box2 sb11">"Winken"</div>
+                            <QrCode />
                         </div>
                     </div>
                 </div>
