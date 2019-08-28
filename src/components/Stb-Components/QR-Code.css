@@ -1,11 +1,5 @@
 .qrcode {
-    width: 25%;
-    height: 25%;
-    justify-self: flex-end;
-    margin-right: 10%;
-    flex: 3;
-    padding: 8%;
-    width: 20%;
-    height: 20%;
+    width: 50%;
+    height: 50%;
 }
 

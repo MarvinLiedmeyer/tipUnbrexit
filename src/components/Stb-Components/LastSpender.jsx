@@ -48,7 +48,7 @@ class LastSpender extends PureComponent {
                         image="https://upload.wikimedia.org/wikipedia/commons/b/b6/Besuch_Bundeskanzlerin_Angela_Merkel_im_Rathaus_K%C3%B6ln-09916.jpg"
                         overflow="hidden"
                         right={(
-                            <p style={{ marginLeft: '20%', color: '#FFEE00' }}> 20£ </p>
+                            <p style={{ marginLeft: '30%', color: '#FFEE00' }}> 20£ </p>
                         )}
                     />
                     <ListItem
@@ -56,7 +56,7 @@ class LastSpender extends PureComponent {
                         image="https://upload.wikimedia.org/wikipedia/commons/b/b6/Besuch_Bundeskanzlerin_Angela_Merkel_im_Rathaus_K%C3%B6ln-09916.jpg"
                         overflow="hidden"
                         right={(
-                            <p style={{ marginLeft: '20%', color: '#FFF951' }}> 20£ </p>
+                            <p style={{ marginLeft: '30%', color: '#FFF951' }}> 20£ </p>
                         )}
                     />
                     <ListItem
@@ -65,7 +65,7 @@ class LastSpender extends PureComponent {
                         image="https://upload.wikimedia.org/wikipedia/commons/b/b6/Besuch_Bundeskanzlerin_Angela_Merkel_im_Rathaus_K%C3%B6ln-09916.jpg"
                         overflow="hidden"
                         right={(
-                            <p style={{ marginLeft: '20%', color: '#FFF951' }}> 2000£ </p>
+                            <p style={{ marginLeft: '30%', color: '#FFF951' }}> 2000£ </p>
                         )}
                     />
                 </List>
