@@ -15,16 +15,20 @@ class Stb extends PureComponent {
                 <div className="tip">
                     <div className="blur">
                         <div className="headlines">
-                            <Headline headline="Dir gefällt der Live-Act?" />
-                            <div className="logop">
-                                <Headline headline="Unterstütze" />
-                                <Logo />
-                            </div>
+                            <Headline headline="Dir gefällt der Live-Act?" style={{ marginTop: '5%' }} />
                         </div>
                         <div className="main">
                             <LastSpender />
-                            <div className="box sb2">"Winken"</div>
-                            <QrCode style={{ justifyContent: 'flexEnd' }} />
+                            <div className="box2 sb11">
+                                <p style={{ color: 'black' }}>"Winken"</p>
+                            </div>
+                            <div className="qrCodetxt">
+                                <div className="logop">
+                                    <p >Unterstütze</p>
+                                    <Logo />
+                                </div>
+                                <QrCode />
+                            </div>
                         </div>
                     </div>
                 </div>

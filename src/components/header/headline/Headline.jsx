@@ -11,7 +11,6 @@ class Headline extends PureComponent {
         return (
             <div>
                 <h1 style={{ color: 'white', fontSize: '220%' }}>{headline}</h1>
-                <h2>{subline}</h2>
             </div>
         );
     }
