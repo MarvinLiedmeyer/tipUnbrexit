@@ -9,3 +9,33 @@
 .list {
     flex: 1;
 }
+.speechbubble{
+    display: flex;
+}
+
+.list-item__image {
+    border-radius: 40px !important;
+    outline: 0 !important;
+}
+
+.speech-bubble {
+    flex: 2;
+	position: relative;
+	background: #00aabb;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 1.531em solid transparent;
+	border-right-color: #00aabb;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -0.766em;
+	margin-left: -1.531em;
+}
