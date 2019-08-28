@@ -1,12 +1,7 @@
 .qrcode {
-    width: 20%;
-    height: 20%;
-    margin: 10% auto;
-    justify-self: flex-end;
-<<<<<<< Updated upstream
-    margin-right: 0%;
-=======
-    margin-right: 5%;
->>>>>>> Stashed changes
+    width: 30%;
+    height: 30%;
+     position: absolute;
+     bottom: 15px;
+     right: 15px;
 }
-
